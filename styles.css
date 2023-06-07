@@ -1,0 +1,29 @@
+/* Page Setup */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Emoji Style */
+.emoji {
+  font-size: 8em;
+  cursor: pointer;
+}
+
+/* Closed Emoji */
+.closed {
+  display: none;
+}
+
+/* Open Emoji */
+.open {
+  display: none;
+}
+
+/* Closed Emoji Showing */
+.active {
+  display: block;
+}
